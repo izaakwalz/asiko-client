@@ -468,12 +468,54 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
+.left-0{
+  left: 0px;
+}
+
+.top-0{
+  top: 0px;
+}
+
 .mt-2{
   margin-top: 0.5rem;
 }
 
+.h-28{
+  height: 7rem;
+}
+
+.h-14{
+  height: 3.5rem;
+}
+
+.w-full{
+  width: 100%;
+}
+
+.bg-grey-300{
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 229 229 / var(--tw-bg-opacity));
+}
+
+.bg-white{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.p-28{
+  padding: 7rem;
+}
+
+.p-14{
+  padding: 3.5rem;
+}
+
 .font-lato{
   font-family: Lato, sans-serif;
+}
+
+.font-sofia{
+  font-family: Sofia, cursive;
 }
 
 .text-base{
@@ -481,6 +523,17 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 1.5rem;
 }
 
+.text-lg{
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
 .font-semibold{
   font-weight: 600;
+}
+
+.shadow-md{
+  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
